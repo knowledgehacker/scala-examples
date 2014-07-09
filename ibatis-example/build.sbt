@@ -13,7 +13,8 @@ version := "0.1"
 //ibatis_version := "2.1.7.597"
 
 libraryDependencies ++= Seq(
-	//"org.slf4j" % "slf4j-api" % "1.6.1",
+	"org.slf4j" % "slf4j-simple" % "1.6.1",
+	"org.slf4j" % "slf4j-api" % "1.6.1",
 	"mysql" % "mysql-connector-java" % "5.1.31",
     //"org.apache.ibatis" % "ibatis-core" % "3.0",
     //"org.apache.ibatis" % "ibatis-sqlmap" % "3.0-beta-10")
